@@ -1,4 +1,8 @@
-# Extrator local de pedidos em português — Qwen + LoRA + GTX 1660
+Arthur candido     rm98283 
+Giuliano Marques   rm99694
+
+
+# Extrator local de pedidos — Qwen + LoRA + GTX 1660
 
 Projeto didático e reproduzível para **adaptar localmente uma LLM** à extração de campos de pedidos escritos em português e retornar JSON. O treinamento, a avaliação oficial e a interface são configurados para rodar em uma NVIDIA com CUDA, incluindo a GTX 1660.
 
