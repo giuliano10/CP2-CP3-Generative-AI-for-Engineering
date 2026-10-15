@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Este projeto adapta o modelo aberto `Qwen/Qwen2.5-0.5B-Instruct` para transformar pedidos curtos em português num objeto JSON com `produto`, `quantidade`, `endereco` e `prazo`. O ajuste é supervisionado e usa LoRA; inferência, treinamento e benchmark foram implementados para CUDA. O projeto gera dados sintéticos determinísticos para evitar dependência de dados pessoais.
+Este projeto adapta o modelo aberto `Qwen/Qwen2.5-0.5B-Instruct` para transformar pedidos curtos em objeto JSON com `produto`, `quantidade`, `endereco` e `prazo`. O ajuste é supervisionado e usa LoRA; inferência, treinamento e benchmark foram implementados para CUDA. O projeto gera dados sintéticos determinísticos para evitar dependência de dados pessoais.
 
 **Importante:** este arquivo é um relatório metodológico. Os campos de resultados devem ser preenchidos após execução no computador com GTX 1660. Nenhuma métrica nem captura da GPU foi inventada ou medida no Sandbox.
 
