@@ -3,7 +3,7 @@
 A GTX 1660 do usuário não está conectada ao Sandbox desta execução. Portanto, este projeto **não inclui uma captura fabricada**. Para registrar a placa real funcionando dentro do VS Code:
 
 1. Abra a pasta do repositório no VS Code.
-2. Abra o terminal integrado: **Terminal → Novo Terminal** e selecione PowerShell.
+2. Abra o terminal integrado: **Terminal - Novo Terminal** e selecione PowerShell.
 3. Ative o ambiente virtual: `\.venv\Scripts\Activate.ps1`.
 4. Execute `nvidia-smi` e deixe visíveis a linha com `GeForce GTX 1660`, o driver e a memória.
 5. Na mesma janela, execute `python src/gpu_check.py`. O resultado precisa mostrar `CUDA disponível no PyTorch: True` e `Teste FP16 CUDA: PASSOU`.
