@@ -1,0 +1,7 @@
+# Instale PyTorch com CUDA separadamente conforme README.md e a versão do driver NVIDIA.
+transformers==4.46.3
+peft==0.13.2
+accelerate==1.1.1
+gradio==5.8.0
+safetensors>=0.4.5,<0.6
+pytest>=8.3,<9
