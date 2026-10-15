@@ -1,6 +1,6 @@
 # Dados sintéticos
 
-`orders_synthetic.jsonl` contém 800 exemplos gerados deterministicamente por `src/data.py` com seed 1660. Os pedidos e endereços foram construídos a partir de combinações sintéticas para a tarefa didática; não são dados pessoais de clientes. Cada linha contém `input` e o objeto JSON `target`.
+`orders_synthetic.jsonl` contém 800 exemplos gerados deterministicamente por `src/data.py` com seed 1660. Os pedidos e endereços foram construídos a partir de combinações sintéticas para a tarefa; não são dados pessoais. Cada linha contém `input` e o objeto JSON `target`.
 
 Para regenerar o arquivo:
 
